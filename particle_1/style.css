@@ -1,0 +1,63 @@
+/* @font-face {
+    font-family: gilroy;
+    src: url(./public/fonts/Gilroy-Regular.ttf)format("truetype");
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(34, 109, 185);
+    scroll-behavior: smooth;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(136, 143, 147);
+    overflow: hidden;
+}
+
+.slide1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(16, 29, 35);
+}
+
+.slide3 {
+    height: 100%;
+    width: 100%;
+    background-color: #121415;
+}
+
+.particleDiv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#particleDivChild {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+h1 {
+    color: #fff;
+}
